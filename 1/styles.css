@@ -1,0 +1,56 @@
+/* styles.css */
+
+body {
+    font-family: serif, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #f36a88;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 10px;
+}
+
+main {
+    padding: 15px;
+    background-color: #4d048a; /* Background color for the main content area */
+}
+
+.game-list {
+    text-align: center;
+    background-color: #f5f8fa; /* Background color for the game list */
+    padding: 20px;
+}
+
+.game-list ul {
+    list-style-type: none;
+}
+
+.game-list li {
+    margin: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

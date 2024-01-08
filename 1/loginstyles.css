@@ -1,0 +1,62 @@
+/* loginstyles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #FF6B6B, #6B66FF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    max-width: 500px; /* Increase the max-width */
+    padding: 70px; /* Increase the padding */
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #c0b9b9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 25px; /* Increase the font size */
+}
+
+form {
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px; /* Increase the font size */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    background: linear-gradient(to bottom right, #FF6B6B, #6B66FF);
+    color: #fff;
+    padding: 15px; /* Increase the padding */
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: linear-gradient(to bottom right, #6B66FF, #FF6B6B);
+}
+
